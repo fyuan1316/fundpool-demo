@@ -1,0 +1,15 @@
+apiVersion: fund.demo.com/v1alpha1
+kind: FundPool
+metadata:
+  name: fundpool-1
+spec:
+  # Add fields here
+  balance: 120
+---
+apiVersion: fund.demo.com/v1alpha1
+kind: FundPool
+metadata:
+  name: fundpool-2
+spec:
+  # Add fields here
+  balance: 100

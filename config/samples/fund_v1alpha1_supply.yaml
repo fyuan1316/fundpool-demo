@@ -1,0 +1,7 @@
+apiVersion: fund.demo.com/v1alpha1
+kind: Supply
+metadata:
+  name: supply-once
+spec:
+  # Add fields here
+  request: 40

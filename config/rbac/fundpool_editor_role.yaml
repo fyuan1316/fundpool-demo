@@ -1,0 +1,24 @@
+# permissions for end users to edit fundpools.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: fundpool-editor-role
+rules:
+- apiGroups:
+  - fund.demo.com
+  resources:
+  - fundpools
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - fund.demo.com
+  resources:
+  - fundpools/status
+  verbs:
+  - get

@@ -1,0 +1,10 @@
+domain: demo.com
+repo: github.com/fyuan1316/fundpool
+resources:
+- group: fund
+  kind: Supply
+  version: v1alpha1
+- group: fund
+  kind: FundPool
+  version: v1alpha1
+version: "2"
